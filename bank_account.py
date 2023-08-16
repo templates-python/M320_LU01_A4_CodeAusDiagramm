@@ -6,7 +6,7 @@ class BankAccount:
 
     '''
     Hier erstellen Sie der Reihe nach die drei getter-Methoden.
-    Verwenden Sie dazu die Anotation @property.
+    Verwenden Sie dazu den Decorator @property.
     '''
 
     '''
