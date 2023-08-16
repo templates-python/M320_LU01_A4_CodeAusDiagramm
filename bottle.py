@@ -5,10 +5,10 @@ class Bottle:
 
 
     '''
-    Erstellen Sie der Reihe nach die3 getter-Methoden.
-    Verwenden Sie die Anotation @property.
+    Erstellen Sie der Reihe nach die 3 getter-Methoden.
+    Verwenden Sie den Decorator @property.
     '''
 
     '''
-    Erstellen Sie der Riehe nach die restlichen 4 Methoden.
+    Erstellen Sie der Reihe nach die restlichen 4 Methoden.
     '''
