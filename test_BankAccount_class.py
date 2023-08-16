@@ -1,11 +1,11 @@
 import pytest
-from bank_account import BankAccount  # Annahme: Die BankAccount-Klasse ist in einer Datei namens "bank_account.py" definiert
+from bank_account import BankAccount  # Annahme: Die BankAccount-Klasse ist in einer Datei namens 'bank_account.py' definiert
 
 class TestBankAccount:
 
     @pytest.fixture
     def new_account(self):
-        return BankAccount(1000, "John Doe")
+        return BankAccount(1000, 'John Doe')
 
     def test_initial_balance(self, new_account):
         assert new_account.balance == 0.0
@@ -14,7 +14,7 @@ class TestBankAccount:
         assert new_account.overdraft == 1000
 
     def test_customer(self, new_account):
-        assert new_account.customer == "John Doe"
+        assert new_account.customer == 'John Doe'
 
     def test_booking(self, new_account):
         new_account.booking(500)

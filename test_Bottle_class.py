@@ -5,10 +5,10 @@ class TestBottle:
 
     @pytest.fixture
     def bottle(self):
-        return Bottle("Blue", 1000)
+        return Bottle('Blue', 1000)
 
     def test_color(self, bottle):
-        assert bottle.color == "Blue"
+        assert bottle.color == 'Blue'
 
     def test_capacity(self, bottle):
         assert bottle.capacity == 1000
