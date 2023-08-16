@@ -1,5 +1,5 @@
 import pytest
-from bank_account import BankAccount  # Annahme: Die BankAccount-Klasse ist in einer Datei namens "bank_account.py" definiert
+from bank_account import BankAccount  # Annahme: Die BankAccount-Klasse ist in einer Datei namens 'bank_account.py' definiert
 
 class TestBankAccount:
 
