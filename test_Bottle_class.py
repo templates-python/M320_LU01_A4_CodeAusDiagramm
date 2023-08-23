@@ -14,11 +14,11 @@ class TestBottle:
         assert bottle.capacity == 1000
 
     def test_initial_quantity(self, bottle):
-        assert bottle.quantity_avaiable == 0.0
+        assert bottle.quantity_available == 0.0
 
     def test_fill_bottle(self, bottle):
         bottle.fill_bottle()
-        assert bottle.quantity_avaiable == 1000
+        assert bottle.quantity_available == 1000
 
     def test_get_liquid_available(self, bottle):
         bottle.fill_bottle()
