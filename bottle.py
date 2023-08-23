@@ -10,7 +10,7 @@ class Bottle:
         :param color:
         :param capacity:
         """
-        self._quantity_avaiable = 0.0  # 0.0 da float
+        self._quantity_available = 0.0  # 0.0 da float
         self._color = color
         self._capacity = capacity
 
@@ -28,12 +28,12 @@ class Bottle:
         return self._color
 
     @property
-    def quantity_avaiable(self):
+    def quantity_available(self):
         """
         Liefert die noch verfügbare Mengde an Flüssigkeit.
         :return: verfügbare Menge
         """
-        return self._quantity_avaiable
+        return self._quantity_available
 
     @property
     def capacity(self):
@@ -62,7 +62,7 @@ class Bottle:
         """
         Füllt die Flasche bis sie voll ist.
         """
-        self._quantity_avaiable = self._capacity
+        self._quantity_available = self._capacity
 
     def get_liquid(self, amount):
         """
@@ -71,9 +71,9 @@ class Bottle:
         :param amount: gewünschte Menge
         :return: verfügbare Menge
         """
-        if amount > self._quantity_avaiable:
-            amount = self._quantity_avaiable
-            self._quantity_avaiable = 0.0
+        if amount > self._quantity_available:
+            amount = self._quantity_available
+            self._quantity_available = 0.0
         else:
-            self._quantity_avaiable -= amount
+            self._quantity_available -= amount
         return amount
