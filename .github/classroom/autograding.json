@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "Pytest",
+      "name": "test_initial_balance",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_initial_balance\"",
       "input": "",
@@ -11,7 +11,17 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_initial_overdraft",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_initial_overdraft\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_customer",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_customer\"",
       "input": "",
@@ -21,7 +31,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_booking",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_booking\"",
       "input": "",
@@ -31,7 +41,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_get_money_available",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_get_money_available\"",
       "input": "",
@@ -41,7 +51,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_get_money_not_available",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_get_money_not_available\"",
       "input": "",
@@ -51,7 +61,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_get_money_overdraft",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_get_money_overdraft\"",
       "input": "",
@@ -61,7 +71,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_balance_after_transactions",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_balance_after_transactions\"",
       "input": "",
@@ -71,7 +81,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_color",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_color\"",
       "input": "",
@@ -81,7 +91,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_capacity",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_capacity\"",
       "input": "",
@@ -91,7 +101,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_initial_quantity",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_initial_quantity\"",
       "input": "",
@@ -101,7 +111,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_fill_bottle",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_fill_bottle\"",
       "input": "",
@@ -111,7 +121,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_get_liquid_available",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_get_liquid_available\"",
       "input": "",
@@ -121,7 +131,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_get_liquid_not_available",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_get_liquid_not_available\"",
       "input": "",
@@ -131,7 +141,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_get_liquid_partial_available",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_get_liquid_partial_available\"",
       "input": "",
@@ -141,7 +151,7 @@
       "points": 2
     },
     {
-      "name": "Pytest",
+      "name": "test_open_and_close_bottle",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_open_and_close_bottle\"",
       "input": "",
